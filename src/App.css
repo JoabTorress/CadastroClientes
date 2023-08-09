@@ -1,0 +1,157 @@
+body{
+  background-color: black;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f0f0f0;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  
+}
+
+hr{
+  border: solid black;
+}
+
+input{
+  margin-top:10px ;
+  align-items: center;
+  text-align: center;
+  
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc;
+    border: 1px solid #000000;
+    width: 150px
+
+}
+
+.tele{
+  margin-right: 15px;
+}
+
+.cadastro{
+  margin-top: 20px;
+  border-radius: 30px;
+  font-family: 'Lato';
+  margin-left: 40px;
+  color: inherit;
+  cursor: pointer;
+  padding: 10px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.cadastro:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.delete{
+
+  border-radius: 30px;
+  font-family: 'Lato';
+  color: inherit;
+  cursor: pointer;
+  padding: 5px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  outline: none;
+  position: relative;
+  margin-right: 10px;
+
+
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  color: #e74c3c;
+  cursor: pointer;
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.delete:hover, .delete:focus {
+  color: #000000;
+  outline: 0;
+}
+.delete:hover {
+  box-shadow: 0 0 40px 40px #e74c3c inset;
+}
+
+.edita{
+  border-radius: 30px;
+  font-family: 'Lato';
+  color: inherit;
+  cursor: pointer;
+  padding: 5px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.edita:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.salvar{
+  margin-top: 10px;
+  margin-left: 40px;
+  border-radius: 30px;
+  font-family: 'Lato';
+  color: inherit;
+  cursor: pointer;
+  padding: 5px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.salvar:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
+
